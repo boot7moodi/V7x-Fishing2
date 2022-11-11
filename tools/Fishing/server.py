@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
 import threading, os, json, time
-from V7xStyle import Text
+from MoodiStyle import Text
 import urllib.request, requests
 db_File = os.getcwd()+'/tools/Fishing/db.json'
 
